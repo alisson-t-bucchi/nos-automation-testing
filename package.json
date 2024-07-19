@@ -1,0 +1,24 @@
+{
+  "name": "nos-automation-testing",
+  "version": "1.0.0",
+  "description": "resolução exercicio 3 referente ao NOS automation testing da Welwaart",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keyywords": [
+    "test answers",
+    "exercise 3",
+    "nos automation testing from Welvaart"
+  ],
+  "author": "Alisson T. Bucchi",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-slow-down": "^1.3.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.12"
+  }
+}
